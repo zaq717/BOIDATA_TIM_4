@@ -1,5 +1,7 @@
 package tim_4;
 
+import javax.swing.UIManager;
+
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -18,6 +20,11 @@ public class DataAnggota extends javax.swing.JFrame {
      * Creates new form Anggota
      */
     public DataAnggota() {
+        try {
+            UIManager.setLookAndFeel(new com.formdev.flatlaf.FlatLightLaf());
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
         initComponents();
     }
 

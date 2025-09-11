@@ -4,18 +4,25 @@
  */
 package tim_4;
 
+import javax.swing.UIManager;
+
 /**
  *
  * @author HP
  */
 public class Muhammad_Miftakhurozaq_Nurwahid extends javax.swing.JFrame {
-    
+
     private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(Muhammad_Miftakhurozaq_Nurwahid.class.getName());
 
     /**
      * Creates new form Muhammad_Miftakhurozaq_Nurwahid
      */
     public Muhammad_Miftakhurozaq_Nurwahid() {
+        try {
+            UIManager.setLookAndFeel(new com.formdev.flatlaf.FlatLightLaf());
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
         initComponents();
     }
 
