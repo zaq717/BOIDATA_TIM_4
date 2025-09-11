@@ -192,7 +192,8 @@ public class DataAnggota extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
-        // TODO add your handling code here:
+        new Achmad_Nasrul_Hadi().setVisible(true);
+        dispose();
     }//GEN-LAST:event_jButton12ActionPerformed
 
     /**
