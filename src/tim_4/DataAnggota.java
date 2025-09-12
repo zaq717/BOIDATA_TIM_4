@@ -188,8 +188,8 @@ public class DataAnggota extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton9ActionPerformed
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
-//        new Rizqi_Abdul_Munir().setVisible(true);
-//        dispose();
+        new RizqiAbdulMunir().setVisible(true);
+        dispose();
     }//GEN-LAST:event_jButton8ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
