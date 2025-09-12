@@ -71,7 +71,7 @@ public class Mira_Atuzzakya extends javax.swing.JFrame {
         jTextField4.setBackground(new java.awt.Color(0, 204, 255));
         jTextField4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jTextField4.setForeground(new java.awt.Color(255, 255, 255));
-        jTextField4.setText("ALAMAT  : Dsn. Pesantren Ds. Bodor Keec. Pace Kab. Nganjuk");
+        jTextField4.setText("ALAMAT  : Dsn. Pesantren Ds. Bodor Kec. Pace Kab. Nganjuk");
         jTextField4.setBorder(null);
         jTextField4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -79,7 +79,7 @@ public class Mira_Atuzzakya extends javax.swing.JFrame {
             }
         });
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Lenovo\\Downloads\\110x140-1.jpg")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Lenovo\\OneDrive\\Documents\\NetBeansProjects\\BOIDATA_TIM_4\\src\\tim_4\\foto mira.jpg")); // NOI18N
         jLabel2.setText("jLabel2");
 
         btnKembali.setBackground(new java.awt.Color(255, 51, 51));
